@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form Validation Practice</title>
+  </head>
+  <body>
+    <form action="" id="signup-form">
+      <div class="form-header">
+        <div>
+          <small>Sign up with</small>
+          <div class="social-wrapper">
+            <button type="button" class="btn btn-guthub">Github</button>
+            <button type="button" class="btn btn-twitter">Twitter</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="form-body">
+        <small>Or sign in with email and password</small>
+        <div class="form-field">
+          <input type="text" name="email" id="email" placeholder="Email" />
+          <div class="email-form-field-messages"></div>
+        </div>
+
+        <div class="form-field">
+          <input
+            type="password"
+            name="password"
+            id="password"
+            placeholder="Password"
+          />
+          <div class="password-form-field-messages"></div>
+        </div>
+      </div>
+
+      <div class="form-footer">
+        <button type="submit" class="btn btn-primary">Sign Up</button>
+      </div>
+    </form>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
